@@ -1463,7 +1463,7 @@ small {
   width: 64px;
   top: 15%;
   left: 5%;
-  background-image: url('/img/figures/Cone-Black-Matte-r.png');
+  background-image: url('../img/figures/Cone-Black-Matte-r.png');
   background-repeat: no-repeat;
   background-size: contain;
   filter: blur(3px);
@@ -1475,7 +1475,7 @@ small {
   max-height: 184px;
   top: 30%;
   left: -5%;
-  background-image: url('/img/figures/Cube-Yellow-Glossy.png');
+  background-image: url('../img/figures/Cube-Yellow-Glossy.png');
   background-repeat: no-repeat;
   background-size: contain;
   filter: blur(0px);
@@ -1486,7 +1486,7 @@ small {
   width: 48px;
   top: 20%;
   left: 40%;
-  background-image: url('/img/figures/Pill-Black-Matte_l.png');
+  background-image: url('../img/figures/Pill-Black-Matte_l.png');
   background-repeat: no-repeat;
   background-size: contain;
   filter: blur(4px);
@@ -1498,7 +1498,7 @@ small {
   max-height: 184px;
   top: 20%;
   left: 92%;
-  background-image: url('/img/figures/Sphere-White-Glossy.png');
+  background-image: url('../img/figures/Sphere-White-Glossy.png');
   background-repeat: no-repeat;
   background-size: contain;
   filter: blur(0px);
@@ -1510,7 +1510,7 @@ small {
   max-height: 256px;
   top: 40%;
   left: 80%;
-  background-image: url('/img/figures/SuperToroid-Black-Matte_1.png');
+  background-image: url('../img/figures/SuperToroid-Black-Matte_1.png');
   background-repeat: no-repeat;
   background-size: contain;
   filter: blur(0px);
@@ -1522,7 +1522,7 @@ small {
   max-height: 160px;
   top: 10%;
   left: 50%;
-  background-image: url('/img/figures/SuperToroid-Yellow-Glossy.png');
+  background-image: url('../img/figures/SuperToroid-Yellow-Glossy.png');
   background-repeat: no-repeat;
   background-size: contain;
   filter: blur(2px);
@@ -1533,7 +1533,7 @@ small {
   width: 64px;
   top: 7%;
   left: 75%;
-  background-image: url('/img/figures/Cylinder-Black-Matte_r.png');
+  background-image: url('../img/figures/Cylinder-Black-Matte_r.png');
   background-repeat: no-repeat;
   background-size: contain;
   filter: blur(3px);
@@ -1544,7 +1544,7 @@ small {
   width: 64px;
   top: 50%;
   left: 25%;
-  background-image: url('/img/figures/RoundCube-White-Glossy_r.png');
+  background-image: url('../img/figures/RoundCube-White-Glossy_r.png');
   background-repeat: no-repeat;
   background-size: contain;
   filter: blur(3px);
