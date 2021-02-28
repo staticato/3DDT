@@ -98,7 +98,7 @@
             <div class="page-header">
 
               <div class="page-header_hero uk-container-large">
-                <h1 class="page-title">
+                <h1 class="page-title anim-items anim-no-hide">
                   Dmitry Tenyakov
                 </h1>
                 <p class="page-subtitle">
@@ -126,9 +126,9 @@
                 </ul>
               </nav>
 
-              <div class="fx-scroll-down">
+              <a class="fx-scroll-down" href="#about" uk-scroll>
                 <div class="fx-scroll-down_pic"></div>
-              </div>
+              </a>
 
             </div>
             <!--/.page-header-->
@@ -242,17 +242,42 @@
 
       </div>
 
-      <div class="fx-overlay_figures">
-        <div class="fx-overlay_figures-item"></div>
-        <div class="fx-overlay_figures-item"></div>
-        <div class="fx-overlay_figures-item"></div>
-        <div class="fx-overlay_figures-item"></div>
-        <div class="fx-overlay_figures-item"></div>
-        <div class="fx-overlay_figures-item"></div>
-        <div class="fx-overlay_figures-item"></div>
-        <div class="fx-overlay_figures-item"></div>
-        <div class="fx-overlay_figures-item"></div>
-        <div class="fx-overlay_figures-item"></div>
+
+      <div class="fx-overlay_parallax parallax">
+        <div class="fx-overlay_figures" id="scene">
+          <div class="layer" data-depth="0.20">
+            <div class="fx-overlay_figures-item">
+            </div>
+          </div>
+          <div class="layer" data-depth="0.40">
+            <div class="fx-overlay_figures-item">
+            </div>
+          </div>
+          <div class="layer" data-depth="0.10">
+            <div class="fx-overlay_figures-item">
+            </div>
+          </div>
+          <div class="layer" data-depth="0.30">
+            <div class="fx-overlay_figures-item">
+            </div>
+          </div>
+          <div class="layer" data-depth="0.50">
+            <div class="fx-overlay_figures-item">
+            </div>
+          </div>
+          <div class="layer" data-depth="0.30">
+            <div class="fx-overlay_figures-item">
+            </div>
+          </div>
+          <div class="layer" data-depth="0.20">
+            <div class="fx-overlay_figures-item">
+            </div>
+          </div>
+          <div class="layer" data-depth="0.20">
+            <div class="fx-overlay_figures-item">
+            </div>
+          </div>
+        </div>
       </div>
 
     </div>
@@ -262,6 +287,12 @@
   <!--/.site-->
 
   <!--SCRIPTS-->
+  <script src="js/main.js"></script>
+
+  <script>
+    var scene = document.getElementById('scene');
+    var parallaxInstance = new Parallax(scene);
+  </script>
   <!--/SCRIPTS-->
 
 </body>
